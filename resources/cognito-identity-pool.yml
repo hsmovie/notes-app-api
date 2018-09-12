@@ -84,9 +84,10 @@ Resources:
                       - '/private/'
                       - '$'
                       - '{cognito-identity.amazonaws.com:sub}/*'
-  
+
 # Print out the Id of the Identity Pool that is created
 Outputs:
   IdentityPoolId:
     Value:
       Ref: CognitoIdentityPool
+
